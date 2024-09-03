@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.heading-content,
+.logo-nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header-content {
+  margin: 20px 70px 20px 70px;
+  border-bottom: 1px solid rgb(230, 219, 219);
+}
+.logo-nav-content {
+  display: flex;
+  gap: 20px;
+}
+
+ul,
+a {
+  text-decoration: none;
+}
+.profile {
+  width: 40px;
+  height: 35px;
+}
+
+.header-right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 80px 0px 80px 0px;
+}
+
+.images-side {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.large-size-shoe {
+  width: 450px;
+  border-radius: 10px;
+}
+
+.small-ones {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.small-size {
+  width: 100px;
+  height: 70px;
+  border-radius: 5px;
+}
+
+.content-side {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.display-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
